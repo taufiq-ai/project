@@ -1,0 +1,68 @@
+{% extends 'base/base.html' %}
+<!-- {% load static %} -->
+{% block css %}<link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}">{% endblock css %}
+{% block title %}Blog{% endblock title %}
+{% block content %}
+    <div id="wrap">
+      <div id="header">
+        <h1>Blog Template</a></h1>
+        <h2>Website description</h2>
+      </div>
+      <div id="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Sites</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">References</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+    </div>
+    <div id="content">
+      <div class="left">
+        <h2>This is a blog post</h2>
+        <p>I created this from an existing template I recieved while researching.  The point of this project was to see if I can recreate a site from scratch.  I want to say I achieved this goal if I can get it done today.  I've been researching CSS styles and how they are used. My main issues in the past have been spacing, padding, margins, and alignment, so I pay extra attention to CSS code in those areas.  I'm supposed to mention that this template is available at Free CSS Templates through the <strong>Creative Commons Attributes 2.5</strong> license. </p>
+        </br>
+        </br>
+        <img class="figure" style="border:3px solid #ccc;" alt="blog pic" src="https://th.bing.com/th/id/OIP.teUXdjecJ_Jkx56tbtExfAHaHZ?pid=ImgDet&rs=1"</img>
+        </br>
+        </br>
+        <p>This is the part where I tell you that I don't own the above pic.  The template called for the use of one, so I choose a LED sign being powered by raspberry pi. I like RaPi and hope to learn how to program one someday. I used Pic Monkey to resize the image and Post Image to get an url for codepen purposes.  I don't have a PRO account, so I'm still using urls to insert images</p>
+        <h2>This is another blog post</h2>
+        <p>I really hope you all read the two paragraphs above, as they contain copywrite and creative commons licensing information.  However, I have no intention of using this design for profit, so I should be fine (right?).  I also should mention that I will come back to this code another time.  I'm learning PHP and how to create Wordpress templates. This design will be the one I'll use for testing.</p>
+        </br>
+        </br>
+      </div>
+      <div class="right">
+        <h2>Categories</h2>
+          <ul>
+            <li><a href="#">HTML 5 Tricks</a></li>
+            <li><a href="#">CSS3 Styles</a></li>
+            <li><a href="#">Wordpress</a></li>
+            <li><a href="#">Open Source</a></li>
+            <li><a href="#">Python Apps</a></li>
+            <li><a href="#">Data Science</a></li>
+          </ul>
+        <h2>Archives</h2>
+          <ul>
+            <li><a href="#">January 2015</a></li>
+            <li><a href="#">February 2015</a></li>
+            <li><a href="#">March 2015</a></li>
+            <li><a href="#">April 2015</a></li>
+            <li><a href="#">May 2015</a></li>
+            <li><a href="#">June 2015</a></li>
+            <li><a href="#">July 2015</a></li>
+            <li><a href="#">August 2015</a></li>
+            <li><a href="#">September 2015</a></li>
+            <li><a href="#">October 2015</a></li>
+            <li><a href="#">November 2015</a></li>
+            <li><a href="#">December 2015</a></li>
+        </ul>
+       </div>
+       <div style="clear:both;"></div>
+       <div id="bottom"></div>
+       <div id="footer">
+         designed with guidance
+      </div>
+     </div>
+{% endblock content %}
